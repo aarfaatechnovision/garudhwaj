@@ -28,22 +28,220 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+       
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Gurudhwaj</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">My Garudhwaj App</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
+        <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand w-100 order-0" href="#"><img src="img/garud.jpg" style="height:50px;"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse w-100 order-1" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#" style="font-size: 25px !important">GARUDHWAJ <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                          </ul>
+                        </div>
+                      </nav>
+        </header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    
+
+                    <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class= "indicator"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
+                        </ol>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 slider" src="img/img1.jpeg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 slider" src="img/img2.jpeg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 slider" src="img/img3.jpeg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+               
+
+                  <div class="container">
+                        <div class="jumbotron text-center blue-grey lighten-5">
+                        
+                          <!-- Title -->
+                          <h3 class="card-title h3" align="Left"><b>Our Services</b></h2>
+                        
+                          <!-- Subtitle -->
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="img/download.jpg" width="200" height="200">
+                              <h5 class="services"><b>Bick rent</b></h5>
+                            </div>
+                            <div class="col-3">
+                              <img src="img/cab.jpg" width="200" height="200">
+                              <h5 class="services"><b>Cab booking</b></h5>
+                            </div>
+                            <div class="col-3">
+                              <img src="img/auto.jpg" width="200" height="200">
+                              <h5 class="services"><b>Auto booking</b></h5>
+                            </div>
+                            <div class="col-3">
+                              <img src="img/greencabs.jpg" width="200" height="200">
+                              <h5 class="services"><b>Share cab</b></h5>
+                            </div>
+                          </div>
+                        
+                        
+                        
+                        <h3 class="card-heading h3" align="Left"><b>Immget booking</b></h3>
+                        <form>
+                         <div class="row">
+                         <div class="col" align="Left">
+                        
+                          <div class="row">
+                                <div class='col-sm-6'>
+                                <div class="form-group">
+                                <label class="span-title"><b>Pickup Date/Time</b></label>
+                                <div class='input-group date' id='datetimepicker1'>
+                                <input id="datepicker" width="276" class="form-control" />
+                                  <span class="input-group-addon">
+                                  <!--   <span class="glyphicon glyphicon-calendar"></span> -->
+                                  </span>
+                                </div>
+                              </div>
+                                </div>
+                         <div class='col-sm-6'>
+                                <div class="form-group">
+                                <label class="span-title1"><b>Pickup Date/Time</b></label>
+                                <div class='input-group date' id='datetimepicker2'>
+                                 <!--  <input type='text' class="form-control" /> -->
+                                 <input id="timepicker" width="276" height="72" class="form-control" />
+                                  <span class="input-group-addon">
+                                  <!--   <span class="glyphicon glyphicon-calendar"></span> -->
+                                  </span>
+                                </div>
+                              </div>
+                                </div>
+                        
+                                </div>
+                        
+                             
+                          
+                        
+                        
+                                <!--  <input id="datepicker" width="276" /> -->
+                            
+                        
+                           <!--  <input id="timepicker" width="276" /> -->
+                            
+                        
+                                 <div class="row">
+                                <div class='col-sm-6'>
+                               <div class="form-group">
+                                <label class="span-title"><b>Book for letter</b></label>
+                                <div class='input-group date' id='datetimepicker1'>
+                                 <!--  <input type='text' class="form-control" /> -->
+                                 <input id="datepicker1" width="276" class="form-control" />
+                                  <span class="input-group-addon">
+                                  <!--   <span class="glyphicon glyphicon-calendar"></span> -->
+                                  </span>
+                                </div>
+                              </div>
+                                </div>
+                         <div class='col-sm-6'>
+                                <div class="form-group">
+                                <label class="span-title1"><b>Book for letter</b></label>
+                                <div class='input-group date' id='datetimepicker1'>
+                                 <!--  <input type='text' class="form-control" /> -->
+                                 <input id="timepicker1" width="276" height="72" class="form-control" />
+                                  <span class="input-group-addon">
+                                  <!--   <span class="glyphicon glyphicon-calendar"></span> -->
+                                  </span>
+                                </div>
+                              </div>
+                                </div>
+                        
+                       
+                                </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                           
+                         </div>
+                        
+                        
+                        
+                        <div class="col" align="right">
+                          <img src="img/cab.jpg" width="350" height="250">	
+                         </div>
+                        
+                         
+                         </div>
+                        
+                         <div class="form-group" align="Left">
+                                <label class="span-title">From location</label>
+                                <div class='input-group'>
+                                  <input type='text' class="form-control" />
+                                  
+                                </div>
+                              </div>
+                         
+                        
+                        
+                         <div class="form-group" align="Left">
+                                <label class="span-title">Where location</label>
+                                <div class='input-group'>
+                                  <input type='text' class="form-control" />
+                                  
+                                </div>
+                              </div>
+                         </form> 
+                        
+                        
+                        
+                        
+                        </div>
+                        </div>
+                        
+
+       
+       
         <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>    
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/gijgo.min.js" type="text/javascript"></script>
+        <script src="js/firstpage.js"></script>
+        
     </body>
 </html>

@@ -1,0 +1,63 @@
+
+
+.container
+{
+  margin-top: 20px;
+}
+
+.card-title
+{
+	color:brown;
+}
+
+.services
+{
+	color: brown;
+}
+
+.card-heading
+{
+  color: brown;
+  margin-top: 20px; 	
+}
+
+.span-title
+{
+	color: brown;
+}
+
+
+.span-title1
+{
+	visibility: hidden;
+}
+
+
+
+
+.form-control
+{
+	background-color: brown;
+	color: white;
+
+}
+
+.input-group-addon
+{
+   background-color: brown;	
+}
+
+
+.w-100 {
+    width: 100%!important;
+}
+.navbar
+{
+padding: 1.5rem 1rem !important;
+background-color: yellow;
+}
+
+.gj-modal
+{
+margin-top: -50px !important; 
+}
